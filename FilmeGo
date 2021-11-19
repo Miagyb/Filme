@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    				
+        <meta charset="utf-8">
+        <title>FILMES</title>
+        
+        <link rel="stylesheet" href="jlplayer.css">
+        <style>
+           body{
+            		  margin: 0;
+								  height: 100vh;
+								  width: 100vw;
+								  background: linear-gradient(#00386f, #093d6f, #537da5);
+								
+            }
+            h1{
+            				color: #8c0c17;
+            }
+            *, *::before, *::after{margin: 0; padding: 0;}
+        .video-container{width: 500px;}
+        </style>
+    </head>
+    <body>			              			    
+        <h1>FILMES </h1>
+        
+        
+        				<div class="search-box">
+        								<input type="text" class="search-txt" placeholder="Buscar">
+        								<a href="#" class="search-btn">
+        												<img src="lupa.svg" alt="lupa" height="15" width="15">
+        								</a>
+        								
+        				</div>
+        
+        	<p border="border: dotted;" #80acff >
+        				
+        				        				
+        			<form class="video-container" action="" method="GET">
+
+        <!-- Chamar elemento vídeo com class jlplayer-video -->
+        <video preload="none" class="jlplayer-video" >
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+
+        </video>
+
+    </form>
+
+    <!-- Inclusão jlplayer -->
+    <script src="jlplayer.js" async></script>
+      
+        				
+        </div>
+      
+        </body>
+</html>
+            
